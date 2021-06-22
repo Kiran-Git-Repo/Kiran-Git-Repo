@@ -15,7 +15,7 @@ public class TodoHarcodedService {
 	static {
 		todos.add(new Todo(++counter,"SuperUser","Learn to code in Angular",new Date(),false));
 		todos.add(new Todo(++counter,"SuperUser","Learn to code in SpringBoot",new Date(),false));
-		todos.add(new Todo(++counter,"SuperUser","Learn to connect angular and sspringboot",new Date(),false));
+		todos.add(new Todo(++counter,"SuperUser","Learn to connect angular and Springboot",new Date(),false));
 	}
 	
 	public List<Todo> findAll(){
